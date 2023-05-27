@@ -17,7 +17,7 @@ class IconToggle extends StatefulWidget {
     this.value = false,
     this.onChanged,
     this.transitionBuilder = _defaultTransitionBuilder,
-    this.duration =  Duration(milliseconds: 100),
+    this.duration =  const Duration(milliseconds: 100),
     this.reverseDuration,
   });
   final IconData selectedIconData;
