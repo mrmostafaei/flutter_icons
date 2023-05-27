@@ -1,4 +1,4 @@
-library flutter_icons;
+library miladtech_flutter_icons;
 
 export 'src/ionicons.dart';
 export 'src/ant_design.dart';
