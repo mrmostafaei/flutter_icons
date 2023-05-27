@@ -1,3 +1,6 @@
+## 2.0.1
+* Remove all const
+
 ## 2.0.0
 * Updated to compatible dart 3
 

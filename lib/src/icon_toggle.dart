@@ -17,7 +17,7 @@ class IconToggle extends StatefulWidget {
     this.value = false,
     this.onChanged,
     this.transitionBuilder = _defaultTransitionBuilder,
-    this.duration = const Duration(milliseconds: 100),
+    this.duration =  Duration(milliseconds: 100),
     this.reverseDuration,
   });
   final IconData selectedIconData;
@@ -77,7 +77,7 @@ class _IconToggleState extends State<IconToggle>
         _controller!.reverse();
       },
       child: Padding(
-        padding: const EdgeInsets.all(10.0),
+        padding:  EdgeInsets.all(10.0),
         child: _IconToggleable<double>(
           listenable: _position!,
           activeColor: widget.activeColor,
